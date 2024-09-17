@@ -5,25 +5,15 @@ using namespace std;
 
 
 int Lab_2(){
-
-    double x, y;
-
-    cout <<"Введіть занчення х:"<<endl;
-    cin>> x;
-
-    cout <<"Введіть занчення y:"<<endl;
-    cin>> y;
-
-    cout<< fixed<< setprecision(3);
-
-    cout<<"x :"<<x <<setw(15)<<"y :"<< y<< endl;
-
-
-    if(y<=x+1 && (y<=1-x ) && (y>=x-1) &&(x*x+y*y<=1)&&  (x >0 && y>0) )
-        cout<<"Точка попадає в область"<<endl;
-
-    else
-        cout<<"Точка не попадає в область"<<endl;
+    string name;
+    cout << "Enter your name:" << endl;
+    cin >> name;
+    cout << "My name is " << name  << "." << endl;
+    cout << "Hello " << name << ". My name is Tom Riddle." << endl;
+    cout << "Do you know anything about the Chamber of Secrets?" << endl;
+    cout << "Yes." << endl;
+    cout << "Can you tell my?" << endl;
+    cout << "No. But I can show you." << endl;
 
     return 0;
 }

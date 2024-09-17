@@ -6,26 +6,15 @@ using namespace std;
 
 
 int Lab_3(){
-    long  k2 = 1;
-    double dbln, sum=0, term;
-    const double EPS = 0.000001;
-    short k1= 1;
-    int n;
+    string name;
+    cout << "Enter your name:" << endl;
+    cin >> name;
+    cout << "My name is " << name  << "." << endl;
+    cout << "Hello " << name << ". My name is Tom Riddle." << endl;
+    cout << "Do you know anything about the Chamber of Secrets?" << endl;
+    cout << "Yes." << endl;
+    cout << "Can you tell my?" << endl;
+    cout << "No. But I can show you." << endl;
 
-    for (n = 0; ;n++, k2 *=2, k1 = -1*k1) {
-        dbln = static_cast<double>(n);
-        term = k1 * (1 - ((dbln+1)*(dbln +1))/((dbln+2)*(dbln+2)));
-        if (fabs(term)>=EPS){
-            sum +=term;
-        }
-        else {
-            break;
-        }
-        if (n==9){
-            cout<<"Сума 10 членів ряду : " << fixed<< setprecision(6)<< sum<<endl;
-        }
-    }
-    cout<<"Повна сума ряду: "<< fixed<<setprecision(6)<< sum<<endl;
-    cout<<"Ітерація: "<< n << endl;
     return 0;
 }
