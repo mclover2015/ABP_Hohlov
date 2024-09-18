@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 
 
 #include "Lab_1//Lab_1.cpp"
@@ -11,7 +10,6 @@ using namespace std;
 
 int main(){
 
-    SetConsoleOutputCP(CP_UTF8);
     int nomerLabaratornoi;
     cout<< "Виберіть номер лаби:"<< endl;
     cin>> nomerLabaratornoi;
