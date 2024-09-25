@@ -3,7 +3,7 @@ using namespace std;
 
 // 24 вар
 
-int Lab_2() {
+int Lab_2_1() {
     double x, y;
 
     cout << "x:" << endl;
