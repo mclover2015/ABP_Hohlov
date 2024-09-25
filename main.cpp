@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 
 
 #include "Lab_1//Lab_1.cpp"
@@ -8,12 +9,13 @@
 using namespace std;
 
 
-int main(){
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
 
     int nomerLabaratornoi;
-    cout<< "Виберіть номер лаби:"<< endl;
-    cin>> nomerLabaratornoi;
-    switch(nomerLabaratornoi) {
+    cout << "Виберіть номер лаби:" << endl;
+    cin >> nomerLabaratornoi;
+    switch (nomerLabaratornoi) {
         case 1:
             Lab_1();
             break;
@@ -23,9 +25,8 @@ int main(){
         case 3:
             Lab_3();
             break;
-        default :
-            cout<< "Неправильне значення"<< endl;
+        default:
+            cout << "Неправильне значення" << endl;
     }
     return 0;
 }
-

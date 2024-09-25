@@ -1,9 +1,10 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
-// 4 варіант Хохлов Кирило
+// 4варіант
 
 
 int Lab_1() {
