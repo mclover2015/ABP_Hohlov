@@ -11,7 +11,7 @@ int Lab_2() {
     cout << "y: " << endl;
     cin >> y;
 
-    if (x >= -1 && y <= 0 && y >= -x - 1) {
+    if (x >= -1 && y <= 0 && y <= -x - 1) {
         cout << "++++++" << endl;
     } else {
         cout << "-------" << endl;
