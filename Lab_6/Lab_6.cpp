@@ -17,14 +17,14 @@ int printMatrix(const std::vector<std::vector<int>>& matrix) {
 int fillMatrix(std::vector<std::vector<int>>& matrix) {
     for (auto& row : matrix) {
         for (int& elem : row) {
-            elem = rand() % 101 - 50;  // Числа від -50 до 50
+            elem = rand() % 101 - 50;
         }
     }
     return 0;
 }
 
 
-int process3x3Squares(std::vector<std::vector<int>>& matrix) {
+int squares(std::vector<std::vector<int>>& matrix) {
     int rows = matrix.size();
     int cols = matrix[0].size();
 
@@ -59,7 +59,7 @@ int Lab_6() {
     std::cout << "radom nums:" << std::endl;
     printMatrix(matrix);
 
-    process3x3Squares(matrix);
+    squares(matrix);
 
     std::cout << "\nchanged:" << std::endl;
     printMatrix(matrix);

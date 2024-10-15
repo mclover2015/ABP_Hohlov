@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int reversePositiveSubsequence(std::vector<int>& seq) {
+int reverse(std::vector<int>& seq) {
     int start = -1;
 
     for (size_t i = 0; i <= seq.size(); ++i) {
@@ -29,7 +29,7 @@ int Lab_5() {
     }
     cout << std::endl;
 
-    reversePositiveSubsequence(sequence);
+    reverse(sequence);
 
     cout << "end  : ";
     for (int num : sequence) {
