@@ -7,6 +7,9 @@
 #include "Lab_2//Lab_2_2.cpp"
 #include "Lab_3/Lab_3.cpp"
 #include "Lab_4/Lab_4.cpp"
+#include "Lab_5/Lab_5.cpp"
+#include "Lab_6/Lab_6.cpp"
+#include "Lab_7/Lab_7.cpp"
 
 using namespace std;
 
@@ -32,6 +35,15 @@ int main() {
             break;
         case 5:
             Lab_4();
+            break;
+        case 6:
+            Lab_5();
+            break;
+        case 7:
+            Lab_6();
+            break;
+        case 8:
+            Lab_7();
             break;
         case 0:
             return 0;
