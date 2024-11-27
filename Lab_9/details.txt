@@ -1,0 +1,3 @@
+bober P 30 200
+albert Z 20 500
+zebra Z 10 600
